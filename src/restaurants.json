@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Smile Smash Burger",
+    "location": "c/ Vicaría nº 11",
+    "city": "Gijón",
+    "price": 0,
+    "food": [ "Comida", "Cena" ],
+    "type": [ "Hamburguesas", "Carne" ],
+    "description": "Hamburguesas de calidad con ingredientes frescos y locales. Hamburguesas de carne, pollo. Patatas fritas y aros de cebolla. Postres caseros.",
+    "image": "prueba33.jpg",
+    "logo":"smileSmashBurger.png",
+    "web": "https://www.smilesmashburger.com/",
+    "schedule": {
+      "Martes": ["14:00-16:30"],
+      "Miercoles":["14:00-16:30"],
+      "Jueves": ["14:00-16:30"],
+      "Viernes":["14:00-16:30", "20:00-00:30"],
+      "Sábado": ["14:00-16:30", "20:00-02:00"],
+      "Domingo": ["14:00-16:30", "20:00-00:30"]
+    }
+  }, 
+  {
+    "name": "La Marmita de Papá",
+    "location": "c/ Marqués de Casa Valdés nº 27",
+    "city": "Gijón",
+    "price": 1,
+    "food": [ "Comida", "Cena" ],
+    "type": [ "Carne", "Asturiana", "Pescado" ],
+    "description": "Cocina casera asturiana. Menú del día. Comida para llevar. Postres caseros.",
+    "image": "https://www.lamarmitadepapa.com/wp-content/uploads/2020/07/logo-marmita-de-papa.png",
+    "logo":"https://imgur.com/aqPP10V",
+    "web": "https://www.lamarmitadepapa.com/",
+    "schedule": {
+      "Lunes": ["13:00-16:00"],
+      "Martes": ["13:00-16:00"],
+      "Miércoles": ["13:00-16:00"],
+      "Jueves": ["13:00-16:00"],
+      "Viernes": ["13:00-16:00"],
+      "Sábado": ["13:00-16:00"],
+      "Domingo": ["13:00-16:00"]
+    }
+  },
+  
+  {
+    "name": "La Casona de Jovellanos",
+    "location": "c/ Jovellanos nº 7",
+    "city": "Gijón",
+    "price": 2,
+    "food": [ "Comida", "Cena" ],
+    "type": [ "Carne", "Asturiana", "Cocina de autor" ],
+    "description": "Cocina de autor asturiana. Menú del día. Carta. Postres caseros.",
+    "image": "https://www.lacasonadejovellanos.com/wp-content/uploads/2020/07/logo-casona-de-jovellanos.png",
+    "web": "https://www.lacasonadejovellanos.com/",
+    "schedule": {
+      "Lunes": ["13:00-16:00"],
+      "Martes": ["13:00-16:00"],
+      "Miércoles": ["13:00-16:00"],
+      "Jueves": ["13:00-16:00"],
+      "Viernes": ["13:00-16:00"],
+      "Sábado": ["13:00-16:00"],
+      "Domingo": ["13:00-16:00"]
+  }
+  }
+]
