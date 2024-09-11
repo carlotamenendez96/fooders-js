@@ -11,8 +11,8 @@
 
       <div class="py-4" />
 
-      <v-row>
-        <v-col cols="12">
+      <v-row class="justify-center">
+        <v-col cols="10">
           <FormMain />
         </v-col>
       </v-row>

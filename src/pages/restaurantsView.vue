@@ -1,6 +1,6 @@
 <template>
 <h1>Restaurants View</h1>
-<div v-for="restaurant in restaurantsFiltered" :key="restaurant.name">
+<div v-for="restaurant in restaurants" :key="restaurant.name">
   <v-card
     class="mx-auto"
     image="https://cdn.vuetifyjs.com/docs/images/cards/dark-beach.jpg"

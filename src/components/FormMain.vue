@@ -5,6 +5,7 @@
       :items="food"
       label="Comida"
       required
+      variant="solo"
     ></v-select>
 
     <v-combobox
@@ -13,7 +14,17 @@
       label="Tipo de comida"
       chips
       multiple
+      variant="solo"
     ></v-combobox>
+
+    <v-date-input
+      v-model="state.date"
+      label="¿Cuándo?"
+      required
+      prepend-icon=""
+      prepend-inner-icon="$calendar"
+      variant="solo"
+    ></v-date-input>
 
     <v-slider
       :max="3"
@@ -24,12 +35,6 @@
       label="Precio"
       v-model="state.price"
     ></v-slider>
-
-    <v-date-input
-      v-model="state.date"
-      label="¿Cuándo?"
-      max-width="368"
-    ></v-date-input>
 
     <v-btn
       class="me-4"
@@ -127,3 +132,23 @@
 
 
 </script>
+
+<style>
+.container_bg {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+.custom-input .v-input__control {
+  background-color: #f5f5f5; /* Fondo gris claro para los inputs */
+  color: #000000; /* Texto negro */
+}
+
+.custom-input .v-input__control input {
+  color: #000000; /* Texto negro */
+}
+
+.custom-input .v-slider__label {
+  color: #000000; /* Texto negro */
+}
+</style>
